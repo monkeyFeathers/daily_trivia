@@ -5,11 +5,6 @@ Feature: Daily Trivia Descriptions
 	I want to receive questions daily
 	
 	@wip
-	Scenario: Send trivia questions every day at a specific time
-		Given a question
-		When the time is "8:00am"
-		Then an email should be sent
-		
 	Scenario: Send the question that corresponds to the day
 		Given a question with date "2011-1-1"
 		When the date is "2011-1-1"

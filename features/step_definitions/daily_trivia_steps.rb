@@ -1,11 +1,12 @@
-Given /^a question$/ do
-  @time = Time.local(2011,1,1,8)
+Given /^a question with date "([^"]*)"$/ do |arg1|
+  pending # express the regexp above with the code you wish you had
 end
 
-When /^the time is "([^"]*)"$/ do |arg1|
-  
+When /^the date is "([^"]*)"$/ do |arg1|
+  pending # express the regexp above with the code you wish you had
 end
 
-Then /^an email should be sent$/ do
-  
+Then /^the question will be selected to be sent via email$/ do
+  pending # express the regexp above with the code you wish you had
 end
+
